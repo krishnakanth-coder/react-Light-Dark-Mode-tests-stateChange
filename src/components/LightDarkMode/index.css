@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.header {
+  font-size: 30px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mode {
+  align-self: center;
+
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+
+  color: #000000;
+}
+.header {
+  font-size: 35px;
+}
+.button {
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
